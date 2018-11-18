@@ -96,9 +96,7 @@ header nav a:hover {
  /* HERO SECTION */
  .hero {
          padding: 20em 0 5em;
-         
-         /*background: url(../img/green_cup.png);
-         */
+         height: 22%;
          background: url(../img/caffeine.jpg) no-repeat center center;
          background-size: cover;
          background-attachment: fixed;
@@ -111,6 +109,9 @@ header nav a:hover {
      font-weight: 300;
      font-size: 3em;
      color: #ffffff;
+     position: absolute;
+     top: 70%;
+     left: 5%;
  }
 
  /* MEDIA SCREEN QUERIES */
@@ -146,7 +147,7 @@ header nav a:hover {
      margin-bottom: 1em;
  }
  .content-home .col h4 {
-     font-family: 'Trade Winds', cursive;
+     font-family: 'Rubik', sans-serif;
      font-weight: 700;
      color: #5d4037;
      font-size: 2em;
@@ -155,6 +156,7 @@ header nav a:hover {
 
  .content-home .col p {
      margin-bottom: 3em;
+     color: #000000;
  }
 
  /* MEDIA SCREEN QUERIES */
@@ -193,7 +195,6 @@ header nav a:hover {
 
  .logistics h3 + p {
      font-family:'Montserrat', sans-serif;
-     font-weight: 300; 
      margin: .5em 0 1em;
  }
 
@@ -268,7 +269,6 @@ header nav a:hover {
 }
 
 .content-products p{
-    color: #795548;
     font-size: 1em;
     margin: 10px 0 40px 0;
 }
@@ -297,7 +297,6 @@ header nav a:hover {
 
 .content-products li p{
     margin: 10px 0 50px 0;
-    color: #795548;
 }
 
 /* MEDIA SCREEN QUERIES */
